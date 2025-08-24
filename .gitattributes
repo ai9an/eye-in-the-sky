@@ -1,0 +1,18 @@
+# Ignore TeX files from language stats
+*.tex linguist-vendored
+*.sty linguist-vendored
+*.cls linguist-vendored
+
+# Ignore build or docs folders if they contain LaTeX or generated files
+docs/* linguist-vendored
+build/* linguist-vendored
+dist/* linguist-vendored
+
+# Ignore images
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.ico linguist-vendored
+*.svg linguist-vendored
+
+# Explicitly mark Python files
+*.py linguist-language=Python
